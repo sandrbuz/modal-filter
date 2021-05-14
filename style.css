@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+.container {
+  text-align: center;
+  background-color: rgb(242, 142, 75);
+
+  width: 100vw;
+  height: 100vh;
+}
+.btn {
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: darkmagenta;
+  color: cornsilk;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 400px;
+  height: 100px;
+}
