@@ -10,12 +10,16 @@
 <body>
 
 <div class="container">
-    <button class="btn">Открыть форму</button>
+    <button onclick="show('block')" class="btn">Открыть форму</button>
+    <div onclick="show('none')" id="filter" class="filter"></div>
+  <div id="form" class="form">
     <form action="">
-        <input type="text">
-        <input type="text">
-        <input type="text">
+        <input placeholder="email" type="text">
+        <input placeholder="login" type="text">
+        <input placeholder="password" type="text">
+        <input onclick="show('none')"  class="sbt" type="submit">
     </form>
+  </div>
 </div>
 
     <script src="script.js"></script>
